@@ -1,7 +1,7 @@
 package com.cheng.sample;
 
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.util.Log;
 
 import com.cheng.channel.Channel;
@@ -73,9 +73,9 @@ public class ChannelViewActivity extends AppCompatActivity implements ChannelVie
         channelView.addPlate("国内", recommendChannelList2);
         channelView.addPlate("国外", recommendChannelList3);
         channelView.inflateData();
-        channelView.setChannelNormalBackground(R.drawable.bg_channel_normal);
-        channelView.setChannelEditBackground(R.drawable.bg_channel_edit);
-        channelView.setChannelFocusedBackground(R.drawable.bg_channel_focused);
+        channelView.setChannelNormalBackground(com.cheng.channel.R.drawable.bg_channel_normal);
+        channelView.setChannelEditBackground(com.cheng.channel.R.drawable.bg_channel_edit);
+        channelView.setChannelFocusedBackground(com.cheng.channel.R.drawable.bg_channel_focused);
         channelView.setOnChannelItemClickListener(this);
     }
 

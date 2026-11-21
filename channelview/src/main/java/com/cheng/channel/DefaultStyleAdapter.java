@@ -1,7 +1,7 @@
 package com.cheng.channel;
 
-import android.support.annotation.ColorInt;
-import android.support.annotation.DrawableRes;
+import androidx.annotation.ColorInt;
+import androidx.annotation.DrawableRes;
 import android.util.TypedValue;
 import android.view.Gravity;
 import android.view.View;
